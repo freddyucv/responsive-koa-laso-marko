@@ -1,0 +1,16 @@
+<lasso-page package-path="./browser.json" flags="[data.flag]"/>
+
+<lasso-head/>
+
+<h1>Hello ${data.name}!<h1>
+
+<ul if="notEmpty(data.colors)">
+    <li style="color: $color" for="color in data.colors">
+        $color
+    </li>
+</ul>
+<div else>
+    No colors!
+</div>
+
+<lasso-body/>

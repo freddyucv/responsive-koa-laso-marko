@@ -1,0 +1,7 @@
+{
+    "outputDir": "static",
+    "fingerprintsEnabled": true,
+    "urlPrefix": "./static",
+    "minify": true,
+    "resolveCssUrls": true
+}

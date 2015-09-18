@@ -1,0 +1,19 @@
+{
+  "name": "responsive-laso-marko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^1.0.0",
+    "koa-route": "^2.4.2",
+    "koa-static": "^1.4.9",
+    "koa-useragent": "^0.1.1",
+    "lasso": "^1.11.4",
+    "marko": "^2.7.22"
+  }
+}

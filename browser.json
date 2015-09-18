@@ -1,0 +1,6 @@
+{
+    "dependencies": [      
+      { "path": "./css/no-mobile.css", "if-flag": "no-mobile" },
+      { "path": "./css/mobile.css", "if-flag": "mobile" }
+    ]
+}
